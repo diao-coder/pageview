@@ -1,259 +1,296 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
-	<title>Hom</title>
-	<script src="assets/js/jquery.min.js"> </script>
-	<link href="assets/css/bootstrap.css" rel='stylesheet' type='text/css' />
-	<link href="assets/css/style.css" rel="stylesheet" type="text/css" media="all" />
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-	<!---- start-smoth-scrolling---->
-		<script type="text/javascript" src="assets/js/move-top.js"></script>
-		<script type="text/javascript" src="assets/js/easing.js"></script>
-		<script type="text/javascript">
-			jQuery(document).ready(function($) {
-				$(".scroll").click(function(event){		
-					event.preventDefault();
-					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-				});
-			});
-		</script>
- 	<!---- start-smoth-scrolling---->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>XIDM — 抓住网页里的一切 · 浏览器 + 下载管理器</title>
+<meta name="description" content="XIDM：会嗅探、会拦截广告的 Android 浏览器，加上多线程 HTTP、HLS 与 BitTorrent 下载管理器。">
+<meta name="theme-color" content="#05070d">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%2305070d'/%3E%3Cpath d='M32 14v26m-11-11 11 11 11-11M18 48h28' stroke='%2337f2d0' stroke-width='6' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800&family=Martian+Mono:wght@300;400;600&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/xidm/site.css">
 </head>
 <body>
-<!------headerbg starts--------->
- <div id="top-top" class="headerbg">
-	 <!------header starts--------->
-	   <div class="header">
-		 <!------container starts--------->
-			  <div class="container">
-				   <div class="logo">
-						<a href="#">Resume</a>
-				   </div>
-				  <!------Navigation starts--------->
-				  <div class="nav">
-					 <ul>
-						 <li><a class="scroll" href="#about">ABOUT</a></li>
-						 <li><a class="scroll" href="#skills">SKILLS</a></li>
-						 <li><a class="scroll" href="#port">PORTFOLIO</a></li>
-						 <li><a class="scroll" href="#contact">CONTACT</a></li>
-					 </ul>
-				 </div>
-				  <!------Navigation ends-------->
-					<div class="clear"></div>
-			  </div>
-		 <!------container ends--------->
-	   </div>
-	 <!------header ends--------->
-	 <!------Banner starts--------->
-	   <div class="banner">
-	      <div class="container">
-		     <div class="banner-info">
-			      <div class="bannerlogo">
-					  <img src="assets/picture/diamond.png">
-			      </div>
-			      <div class="bannerhead">
-				      <h2>My name is <span>Jones W</span></h2>
-				      <h3>Java Programmer</h3>
-				      <p>Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
-					  lorem quis bibendum auctor,nisi elit consequat ipsum,nec sagittis sem nibh id elit.Duis.</p>
-					  <a class="downarrow scroll" href="#about"><span> </span></a>
-			      </div>
-			 </div>
-			 <div class="clear"></div>
-		  </div>
-	  </div>
-	  <!------Banner ends-------->
- </div>
- <!------Headerbg ends-------->
- <!------Content starts--------->
- <div class="content">
-	 <!------About starts--------->
-	   <div id="about" class="about">
-		 <div class="container">
-			   <div class="header-section text-center">
-				  <h2><span> </span>ABOUT<span> </span></h2>
-				  </div>
-				 <span><p>Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
-					 lorem quis bibendum auctor,nisi elit consequat ipsum,nec sagittis sem nibh id elit.Duis.</p></span>
-					 
-			  <div class="years">	 
-				<h4><b>2009</b></h4>
-				 <span><h4>Project Manager Web Center</h4></span>
-				 <p><i>Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
-					lorem quis bibendum auctor,nisi elit consequat ipsum,nec sagittis sem nibh id elit.Duis.</i></p>
-			  </div> 
-				
-			  <div class="years">	 		
-				 <h4><b>2012</b></h4>
-				 <span><h4>Manager Delta Coders</h4></span>
-				 <p><i>Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
-					lorem quis bibendum auctor,nisi elit consequat ipsum,nec sagittis sem nibh id elit.Duis.</i></p>
-			  </div> 
-					
-			   <div class="years">	 	
-				 <h4><b>2013</b></h4>
-				 <span><h4>Owner Alternative Labs</h4></span>
-				 <div class="labs">
-					 <p><i>Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
-						lorem quis bibendum auctor,nisi elit consequat ipsum,nec sagittis sem nibh id elit.Duis.
-						sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec teltus</i></p>
-			     </div>
-			  </div>
-				 <a class="arrow scroll" href="#skills"><span> </span></a>
-		  </div>
-	  </div>
-	 <!------About Ends--------->
-	 
-	<!------SKILLS Starts--------->
-	  <div id="skills" class="skills">
-	  <div class="container">
-	     <div class="skills-grids">
-			  <div class="skill-section text-center">
-				  <h2><span> </span>SKILLS<span> </span></h2>
-			  </div>
-					  <div class="services_grids">
-						  <div id="canvas">
-								<div class="skill-grids text-center">
-										<div class="col-md-3">	
-											<div class="skill-grid">
-												<div class="circle" id="circles-1"></div>									
-												 <h3>MySql</h3>	
-											 </div>								  
-										</div>
-										<div class="col-md-3">	
-											<div class="skill-grid">
-												<div class="circle" id="circles-2"></div>									
-												 <h3>AJAX</h3>	
-											 </div>								  
-										</div>
-										<div class="col-md-3">	
-											<div class="skill-grid">
-												<div class="circle" id="circles-3"></div>									
-												 <h3>PHP</h3>	
-											 </div>								  
-										</div>
-										<div class="col-md-3">	
-											<div class="skill-grid">
-												<div class="circle" id="circles-4"></div>									
-												 <h3>JAVASCRIPT</h3>	
-											 </div>								  
-										</div>
-										<div class="clearfix"> </div>
-								  </div>
-						   </div>
-					  </div>
-					<!---->
-					 <script type="text/javascript" src="assets/js/circles.js"></script>
-								 <script>
-									var colors = [
-											['#181115', '#30222A'], ['#181115', '#30222A'], ['#181115', '#30222A'], ['#181115', '#30222A']
-										];
-									for (var i = 1; i <= 5; i++) {
-										var child = document.getElementById('circles-' + i),
-											percentage = 50 + (i * 10);
-											
-										Circles.create({
-											id:         child.id,
-											percentage: percentage,
-											radius:     80,
-											width:      15,
-											number:   	percentage / 10,
-											text:       '%',
-											colors:     colors[i - 1]
-										});
-									}
-							
-					</script>
-					
-					<!--/-->
-			 </div>
-		 </div>
-		   <a class="down scroll" href="#port"><span> </span></a>
-	  </div>
-	  </div>
-	 <!------SKILLS Ends--------->
-		 <!------PORTFOLIO Starts--------->
-		 <div id="port" class="Portfolio">
-			  <div class="Portfolio-section text-center">
-			      <h2><span> </span>PORTFOLIO<span> </span></h2>
-			  </div>
-			  <div class="container">
-				  <div class="portfolio-grids">
-					  <div class="portfolio-grid col-md-4">
-						 <a href="#"><img src="assets/picture/monitr1.png"></a>
-						  <p>Proin gravida nibh vel velit auctor aliquet.
-							 Aenean sollicitudin, lorem quis bibendum</p>
-						  <a class="rightarrow" href="#"><span> </span></a>
-					  </div>
-					  <div class="portfolio-grid col-md-4">
-						  <a href="#"><img src="assets/picture/monitr2.png"></a>
-						  <p>Proin gravida nibh vel velit auctor aliquet.
-							 Aenean sollicitudin, lorem quis bibendum</p>
-						  <a class="rightarrow" href="#"><span> </span></a>
-					  </div>
-					  <div class="portfolio-grid col-md-4">
-						  <a href="#"><img src="assets/picture/monitr3.png"></a>
-						  <p>Proin gravida nibh vel velit auctor aliquet.
-							 Aenean sollicitudin, lorem quis bibendum</p>
-						  <a class="rightarrow" href="#"><span> </span></a>
-					  </div>
-					  <div class="clear"> </div>
-				  </div>
-				  <a class="portdown scroll" href="#contact"><span> </span></a>
-				  
-			  </div>
-		 </div>
+<canvas id="field" aria-hidden="true"></canvas>
+<div class="grain" aria-hidden="true"></div>
+
+<header class="nav" id="top">
+  <a class="brand" href="#top" aria-label="XIDM">
+    <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 5v14m-6-6 6 6 6-6M8 25h16"/></svg>
+    <span>XIDM</span>
+  </a>
+  <nav class="links">
+    <a href="#features" data-i18n="nav.features">功能</a>
+    <a href="#engine" data-i18n="nav.engine">引擎</a>
+    <a href="#privacy" data-i18n="nav.privacy">隐私</a>
+    <a href="#specs" data-i18n="nav.specs">规格</a>
+    <a href="#download" data-i18n="nav.download">下载</a>
+  </nav>
+  <div class="nav-actions">
+    <button class="lang" id="lang" type="button" aria-label="切换语言 / Switch language">EN</button>
+    <a class="btn btn-small" href="#download" data-i18n="cta.short">下载</a>
   </div>
-  <!------Content Ends-------->
-  
-  <!------FOOTER Starts----------->
-  <div  id="contact" class="footer">
-      <div class="container">
-	  
-		   <div class="contact-section text-center">
-			  <h2><span> </span>CONTACT<span> </span></h2>
-		  </div>
-		 <div class="row">
-		 
-			 <div class="col-md-6">
-				  <div class="footer-left">
-						<div class="social-icons">
-						   <a href="#"><img src="assets/picture/in.png"></a>
-						   <a href="#"><img src="assets/picture/twt.png"></a>
-						   <a href="#"><img src="assets/picture/fb.png"></a>
-					   </div>
-					   <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem
-					   quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh
-					   id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
-					   Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a
-					   ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.</p>
-				  </div>
-			 </div>
-			  
-			  <div class="col-md-6">
-				  <div class="footer-right">
-				 <div class="form">
-				 <form>
-					 <input type="text" class="text" value="Name" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Name';}">
-					 <input type="text" class="text" value="E-mail" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'E-mail';}">
-					 <textarea rows="2" cols="70" onFocus="if(this.value == 'Your Message') this.value='';" onBlur="if(this.value == '') this.value='Your Message';" >Your Message</textarea>
-					 <div class="clear"> </div>
-					 <input type="submit" value="SEND"> 
-				 </form>
-				 </div>
-				  </div>
-				  <div class="clear"></div>
-				  <p class="copy-right">Copyright &copy; 2014.Company name All rights reserved.</p>
-			  </div>
-		 </div>
-	 </div>
-	 <a class="up scroll" href="#top-top"><span> </span></a>
-	  
- </div>
- 
-<div style="display:none;">
-<script type="text/javascript" src="https://v1.cnzz.com/z_stat.php?id=1279369985&web_id=1279369985"></script>
-</div>
+</header>
+
+<main>
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="hero-copy">
+      <p class="eyebrow mono reveal"><span class="dot"></span><span data-i18n="hero.eyebrow">ANDROID · 浏览器 × 下载管理器</span></p>
+      <h1 class="reveal" style="--d:.08s"><span data-i18n="hero.t1">抓住网页里的</span><br><em data-i18n="hero.t2">一切。</em></h1>
+      <p class="lede reveal" style="--d:.16s" data-i18n="hero.lede">XIDM 是一个会嗅探媒体、会拦截广告的浏览器，内置多线程 HTTP、HLS 与 BitTorrent 下载引擎。看到的视频、音频和文件，一键存进你的手机。</p>
+      <div class="cta reveal" style="--d:.24s">
+        <a class="btn" href="#download">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m-5-5 5 5 5-5M5 20h14"/></svg>
+          <span data-i18n="cta.download">下载 APK</span>
+        </a>
+        <a class="btn btn-ghost" href="#features" data-i18n="cta.explore">看看能做什么</a>
+      </div>
+      <p class="meta mono reveal" style="--d:.32s">v10.6 · Android 7.0+ · arm64-v8a · <span data-i18n="hero.free">无广告 SDK</span></p>
+    </div>
+
+    <!-- live segment map: one file, eight connections -->
+    <div class="console reveal" style="--d:.2s" aria-label="分段下载演示">
+      <div class="console-head mono">
+        <span class="lights"><i></i><i></i><i></i></span>
+        <span class="file" id="fname">oceans_4k.m3u8 → oceans_4k.mp4</span>
+      </div>
+      <div class="segments" id="segments"></div>
+      <div class="telemetry mono">
+        <div><label data-i18n="tm.speed">速度</label><b id="tm-speed">0.0 MB/s</b></div>
+        <div><label data-i18n="tm.done">已完成</label><b id="tm-done">0%</b></div>
+        <div><label data-i18n="tm.conn">连接</label><b id="tm-conn">8</b></div>
+        <div><label data-i18n="tm.eta">剩余</label><b id="tm-eta">--</b></div>
+      </div>
+      <div class="spark"><canvas id="spark" width="600" height="80"></canvas></div>
+      <div class="console-foot mono"><span id="tm-stage">PROBE</span><span class="blink">▍</span></div>
+    </div>
+  </section>
+
+  <!-- ============ PROTOCOL BAND ============ -->
+  <div class="band mono" aria-hidden="true">
+    <div class="band-track">
+      <span>HTTP/HTTPS</span><span>RANGE × 8</span><span>HLS</span><span>AES-128</span><span>fMP4</span><span>BitTorrent</span><span>MAGNET</span><span>SOCKS5</span><span>HOSTS</span><span>MCP</span><span>FFmpeg REMUX</span><span>EDGE-TO-EDGE</span>
+      <span>HTTP/HTTPS</span><span>RANGE × 8</span><span>HLS</span><span>AES-128</span><span>fMP4</span><span>BitTorrent</span><span>MAGNET</span><span>SOCKS5</span><span>HOSTS</span><span>MCP</span><span>FFmpeg REMUX</span><span>EDGE-TO-EDGE</span>
+    </div>
+  </div>
+
+  <!-- ============ FEATURES ============ -->
+  <section class="section" id="features">
+    <header class="section-head">
+      <p class="mono kicker">01 / <span data-i18n="f.kicker">功能</span></p>
+      <h2 data-i18n="f.title">一个应用，取代一整套工具。</h2>
+    </header>
+
+    <div class="bento">
+      <article class="card wide reveal">
+        <div class="card-icon"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="6"/><path d="m20 20-4.5-4.5M8.5 11h5M11 8.5v5"/></svg></div>
+        <h3 data-i18n="f.sniff.t">媒体嗅探</h3>
+        <p data-i18n="f.sniff.p">打开网页，XIDM 就在后台识别其中的视频、音频与 HLS 播放列表。底部的计数气泡告诉你这一页抓到了几个，点一下即可下载。每个标签页独立识别，互不干扰。</p>
+        <div class="sniff-demo mono" aria-hidden="true">
+          <div class="pill"><i></i><span>3</span></div>
+          <ul>
+            <li><b>HLS</b> master.m3u8 <em>1080p</em></li>
+            <li><b>MP4</b> trailer.mp4 <em>48 MB</em></li>
+            <li><b>M4A</b> audio.m4a <em>6.7 MB</em></li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="card reveal" style="--d:.06s">
+        <div class="card-icon"><svg viewBox="0 0 24 24"><path d="M4 6h16M4 12h10M4 18h13"/><path d="m18 10 3 2-3 2"/></svg></div>
+        <h3 data-i18n="f.multi.t">多线程分段下载</h3>
+        <p data-i18n="f.multi.p">按 Range 把文件切成多段并行下载，断网、杀进程后自动从断点续传；失败时按退避策略自动重试。</p>
+      </article>
+
+      <article class="card reveal" style="--d:.12s">
+        <div class="card-icon"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="m10 9 5 3-5 3z"/></svg></div>
+        <h3 data-i18n="f.hls.t">HLS 一键成片</h3>
+        <p data-i18n="f.hls.p">自动选最高码率与默认音轨，支持 AES-128 加密与 fMP4，下载完成后用 FFmpeg 无损合并成可直接播放的 MP4。</p>
+      </article>
+
+      <article class="card reveal" style="--d:.18s">
+        <div class="card-icon"><svg viewBox="0 0 24 24"><path d="M6 4v7a6 6 0 0 0 12 0V4"/><path d="M6 4h4v7M14 4h4M14 4v7"/></svg></div>
+        <h3 data-i18n="f.bt.t">BT 与磁力链接</h3>
+        <p data-i18n="f.bt.p">基于 libtorrent 引擎，导入 .torrent 或粘贴磁力链接即可下载，支持下完做种、IP 过滤与独立的限速。</p>
+      </article>
+
+      <article class="card tall reveal" style="--d:.06s">
+        <div class="card-icon"><svg viewBox="0 0 24 24"><path d="M12 3 4 6v6c0 4.5 3.4 8.4 8 9 4.6-.6 8-4.5 8-9V6z"/><path d="m9 12 2 2 4-4"/></svg></div>
+        <h3 data-i18n="f.ad.t">广告拦截，规则由你定</h3>
+        <p data-i18n="f.ad.p">内置 AdAway 列表，可添加在线 Hosts 源或导入自己的文件；域名及其子域名一并拦截，自定义白名单优先生效。只走 https 下载列表，防篡改。</p>
+        <div class="meter mono" aria-hidden="true">
+          <div><span data-i18n="f.ad.m1">已拦截请求</span><b class="count" data-to="1284">0</b></div>
+          <div class="bar"><i style="--w:78%"></i></div>
+          <div><span data-i18n="f.ad.m2">规则数</span><b class="count" data-to="6540">0</b></div>
+        </div>
+      </article>
+
+      <article class="card reveal" style="--d:.12s">
+        <div class="card-icon"><svg viewBox="0 0 24 24"><path d="M3 12s3.5-6 9-6 9 6 9 6-3.5 6-9 6-9-6-9-6z"/><path d="m4 20 16-16"/></svg></div>
+        <h3 data-i18n="f.incog.t">隐身窗口</h3>
+        <p data-i18n="f.incog.p">在独立进程与独立存储中浏览，不留历史；关闭窗口即清除 Cookies、缓存与网站数据。</p>
+      </article>
+
+      <article class="card reveal" style="--d:.18s">
+        <div class="card-icon"><svg viewBox="0 0 24 24"><rect x="7" y="3" width="10" height="4" rx="1"/><path d="M7 5H6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-1"/><path d="M12 11v6m-3-3 3 3 3-3"/></svg></div>
+        <h3 data-i18n="f.clip.t">智能剪贴板</h3>
+        <p data-i18n="f.clip.p">复制一个文件直链或磁力链接，回到 XIDM 就会提示下载。只保存链接的哈希前缀，从不保存链接本身。</p>
+      </article>
+
+      <article class="card reveal" style="--d:.24s">
+        <div class="card-icon"><svg viewBox="0 0 24 24"><path d="M4 18h3l9-9-3-3-9 9z"/><path d="M14 4l3 3M4 14V6a2 2 0 0 1 2-2h4"/></svg></div>
+        <h3 data-i18n="f.ctl.t">精细控制</h3>
+        <p data-i18n="f.ctl.p">全局或单任务限速、仅限 Wi-Fi、低电量暂停、HTTP / SOCKS5 代理、调整排队顺序、复制移动与重下选项。</p>
+      </article>
+
+      <article class="card wide accent reveal">
+        <div class="card-icon"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4M8 9l2 2-2 2M13 13h3"/></svg></div>
+        <h3 data-i18n="f.mcp.t">让 AI 代理帮你下载</h3>
+        <p data-i18n="f.mcp.p">开启后，XIDM 在本机提供 MCP 接口，电脑上的 AI 代理可以查看、添加和管理下载。每个连接独立令牌、按权限分级，默认只监听 127.0.0.1，绝不返回 Cookies、凭据与浏览历史。</p>
+        <pre class="code mono" aria-hidden="true"><span class="c">// tools/call</span>
+{ <span class="k">"name"</span>: <span class="s">"add_download"</span>,
+  <span class="k">"arguments"</span>: { <span class="k">"url"</span>: <span class="s">"https://…/release.zip"</span> } }
+<span class="ok">→ queued · task #31 · 8 connections</span></pre>
+      </article>
+
+      <article class="card wide reveal" style="--d:.06s">
+        <div class="card-icon"><svg viewBox="0 0 24 24"><rect x="2" y="5" width="9" height="14" rx="2"/><rect x="13" y="5" width="9" height="14" rx="2"/></svg></div>
+        <h3 data-i18n="f.fold.t">折叠屏与平板</h3>
+        <p data-i18n="f.fold.p">宽屏显示侧边标签栏与双栏设置，书本姿态按折痕分栏，桌面姿态把控件放到下半屏。</p>
+      </article>
+
+      <article class="card wide reveal" style="--d:.12s">
+        <div class="card-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.7 3.8 5.7 3.8 9s-1.3 6.3-3.8 9c-2.5-2.7-3.8-5.7-3.8-9S9.5 5.7 12 3z"/></svg></div>
+        <h3 data-i18n="f.lang.t">10 种语言</h3>
+        <p data-i18n="f.lang.p">中文（简 / 繁）、English、日本語、한국어、Español、Français、Deutsch、Português、Русский，默认跟随系统。</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ ENGINE ============ -->
+  <section class="section engine" id="engine">
+    <header class="section-head">
+      <p class="mono kicker">02 / <span data-i18n="e.kicker">引擎</span></p>
+      <h2 data-i18n="e.title">从链接到文件，每一步都看得见。</h2>
+    </header>
+    <ol class="pipeline">
+      <li class="reveal"><span class="step mono">01</span><h4 data-i18n="e.s1.t">探测</h4><p data-i18n="e.s1.p">识别文件名、大小、是否支持断点；4xx 视为永久错误，不浪费重试。</p></li>
+      <li class="reveal" style="--d:.08s"><span class="step mono">02</span><h4 data-i18n="e.s2.t">规划</h4><p data-i18n="e.s2.p">按大小切分 Range 段，HLS 选最高码率变体与默认音轨。</p></li>
+      <li class="reveal" style="--d:.16s"><span class="step mono">03</span><h4 data-i18n="e.s3.t">并行抓取</h4><p data-i18n="e.s3.p">多段同时下载，令牌桶精确限速，进度定期落盘，进程被杀也能续上。</p></li>
+      <li class="reveal" style="--d:.24s"><span class="step mono">04</span><h4 data-i18n="e.s4.t">合并成片</h4><p data-i18n="e.s4.p">FFmpeg 只做流复制、不转码：时间轴对齐、音轨不丢，输出秒开的 MP4。</p></li>
+    </ol>
+    <div class="stats">
+      <div class="reveal"><b class="count mono" data-to="8">0</b><span data-i18n="e.k1">并行连接 / 任务</span></div>
+      <div class="reveal" style="--d:.08s"><b class="count mono" data-to="3">0</b><span data-i18n="e.k2">下载协议</span></div>
+      <div class="reveal" style="--d:.16s"><b class="count mono" data-to="500" data-suffix="K">0</b><span data-i18n="e.k3">Hosts 规则上限</span></div>
+      <div class="reveal" style="--d:.24s"><b class="count mono" data-to="10">0</b><span data-i18n="e.k4">界面语言</span></div>
+    </div>
+  </section>
+
+  <!-- ============ PRIVACY ============ -->
+  <section class="section privacy" id="privacy">
+    <div class="privacy-grid">
+      <header class="section-head">
+        <p class="mono kicker">03 / <span data-i18n="p.kicker">隐私与安全</span></p>
+        <h2 data-i18n="p.title">你的下载，只属于你。</h2>
+        <p class="lede" data-i18n="p.lede">没有广告 SDK，不卖数据。下载任务、历史、书签与设置都只留在你的设备上。</p>
+        <a class="link mono" href="privacy.html" data-i18n="p.link">阅读隐私政策 →</a>
+      </header>
+      <ul class="checks">
+        <li class="reveal"><i></i><div><b data-i18n="p.c1.t">统计可关闭</b><span data-i18n="p.c1.p">匿名使用统计只含预定义事件，绝不包含网址与文件名，一键关闭并清除。</span></div></li>
+        <li class="reveal" style="--d:.06s"><i></i><div><b data-i18n="p.c2.t">安装包自校验</b><span data-i18n="p.c2.p">启动时校验签名证书，被重新打包的版本会拒绝运行。</span></div></li>
+        <li class="reveal" style="--d:.12s"><i></i><div><b data-i18n="p.c3.t">证书固定的更新</b><span data-i18n="p.c3.p">更新与配置走证书固定的 HTTPS，安装前核对大小、SHA-256 与签名。</span></div></li>
+        <li class="reveal" style="--d:.18s"><i></i><div><b data-i18n="p.c4.t">组件不对外暴露</b><span data-i18n="p.c4.p">进程间通信使用签名级权限，其他应用无法调用 XIDM 的下载服务。</span></div></li>
+        <li class="reveal" style="--d:.24s"><i></i><div><b data-i18n="p.c5.t">Cookies 不外泄</b><span data-i18n="p.c5.p">网页 Cookies 只发给原站点，跨站重定向即丢弃；拒绝 HTTPS 降级到 HTTP。</span></div></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ SPECS ============ -->
+  <section class="section" id="specs">
+    <header class="section-head">
+      <p class="mono kicker">04 / <span data-i18n="s.kicker">规格</span></p>
+      <h2 data-i18n="s.title">技术规格</h2>
+    </header>
+    <dl class="spec mono">
+      <div><dt data-i18n="s.r1">系统</dt><dd>Android 7.0+ (API 24) · targetSdk 36</dd></div>
+      <div><dt data-i18n="s.r2">架构</dt><dd>arm64-v8a · 16 KB page aligned</dd></div>
+      <div><dt data-i18n="s.r3">协议</dt><dd>HTTP(S) Range · HLS (AES-128, fMP4, BYTERANGE) · BitTorrent / Magnet</dd></div>
+      <div><dt data-i18n="s.r4">合并</dt><dd>FFmpeg (LGPL, remux only) → faststart MP4</dd></div>
+      <div><dt data-i18n="s.r5">网络</dt><dd>HTTP / SOCKS5 proxy · Wi-Fi only · speed limit</dd></div>
+      <div><dt data-i18n="s.r6">界面</dt><dd>Material 3 · edge-to-edge · dynamic color · foldables</dd></div>
+      <div><dt data-i18n="s.r7">自动化</dt><dd>MCP (Streamable HTTP) · 127.0.0.1:47391</dd></div>
+    </dl>
+  </section>
+
+  <!-- ============ DOWNLOAD ============ -->
+  <section class="section download" id="download">
+    <header class="section-head">
+      <p class="mono kicker">05 / <span data-i18n="d.kicker">下载</span></p>
+      <h2 data-i18n="c.title">现在就把网页<br>变成你的文件夹。</h2>
+      <p class="lede mono" id="dl-version"></p>
+    </header>
+
+    <div class="dl-grid">
+      <!-- Google Play: becomes a real button when downloads.js has a store URL. Use Google's official badge artwork here once the listing is live (brand guidelines). -->
+      <article class="store reveal" id="dl-play">
+        <div class="store-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M4 8h16l-1.2 11.2a2 2 0 0 1-2 1.8H7.2a2 2 0 0 1-2-1.8z"/><path d="M8.5 8V6.5a3.5 3.5 0 0 1 7 0V8"/><path d="m10.5 12.5 4 2.5-4 2.5z"/></svg>
+        </div>
+        <div class="store-copy">
+          <span class="mono store-tag" id="dl-play-tag" data-i18n="d.play.soon">即将上架</span>
+          <h3 data-i18n="d.play.t">Google Play</h3>
+          <p data-i18n="d.play.p">从 Google Play 安装可自动更新，适合大多数用户。</p>
+        </div>
+        <a class="btn btn-ghost store-btn is-disabled" id="dl-play-btn" href="#download" aria-disabled="true">
+          <span data-i18n="d.play.btn">在 Google Play 获取</span>
+        </a>
+      </article>
+
+      <!-- APKs per ABI: rows rendered from downloads.js -->
+      <article class="apks reveal" style="--d:.08s">
+        <div class="apks-head">
+          <div>
+            <h3 data-i18n="d.apk.t">直接下载 APK</h3>
+            <p data-i18n="d.apk.p">按处理器架构分包，体积更小；不确定时选通用包。</p>
+          </div>
+          <span class="mono detect" id="dl-detect"></span>
+        </div>
+        <ul class="apk-list" id="dl-list"></ul>
+        <details class="help">
+          <summary data-i18n="d.help.t">该选哪个？</summary>
+          <ul>
+            <li data-i18n="d.help.1"><b>arm64-v8a</b>：近几年的绝大多数手机和平板（64 位 ARM）。</li>
+            <li data-i18n="d.help.2"><b>armeabi-v7a</b>：较老的 32 位 ARM 手机。</li>
+            <li data-i18n="d.help.3"><b>x86_64</b>：模拟器、部分 Chromebook 与 Intel 平板。</li>
+            <li data-i18n="d.help.4"><b>通用包</b>：包含全部架构，任何设备都能安装，体积最大。</li>
+          </ul>
+        </details>
+        <details class="help">
+          <summary data-i18n="d.verify.t">怎样校验文件？</summary>
+          <p data-i18n="d.verify.p">下载后计算 SHA-256，与上面列出的值一致才说明文件完整、未被篡改。</p>
+          <pre class="code mono">certutil -hashfile xidm.apk SHA256      <span class="c"># Windows</span>
+shasum -a 256 xidm.apk                  <span class="c"># macOS</span>
+sha256sum xidm.apk                      <span class="c"># Linux</span></pre>
+        </details>
+      </article>
+    </div>
+  </section>
+</main>
+
+<footer class="foot mono">
+  <span>© <span id="year">2026</span> XIDM</span>
+  <span class="foot-links">
+    <a href="privacy.html" data-i18n="ft.privacy">隐私政策</a>
+    <a href="#download" data-i18n="ft.releases">下载</a>
+  </span>
+  <span data-i18n="ft.note">请只下载你有权保存的内容。</span>
+</footer>
+
+<script src="assets/xidm/downloads.js" defer></script>
+<script src="assets/xidm/site.js" defer></script>
 </body>
 </html>

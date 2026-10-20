@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>XIDM 隐私政策 / Privacy Policy</title>
+<style>
+  body{font-family:-apple-system,Roboto,"Noto Sans SC",sans-serif;max-width:760px;margin:0 auto;padding:16px;line-height:1.65;color:#1a1c21;background:#fff}
+  h1{font-size:1.5em}h2{font-size:1.15em;margin-top:1.6em}h3{font-size:1em;margin-top:1.2em}
+  hr{margin:2.5em 0;border:none;border-top:1px solid #ddd}
+  @media(prefers-color-scheme:dark){body{color:#e3e5eb;background:#111318}hr{border-top-color:#333}}
+</style>
+</head>
+<body>
+<!-- One source for the app (bundled asset, browser/build.gradle) and the public URL for Google Play
+     (e.g. GitHub Pages serving docs/). Keep it in step with what the app really does. -->
+
+<h1>XIDM 隐私政策</h1>
+<p>生效日期：2026 年 10 月 20 日</p>
+<p>XIDM 是一款带浏览器的下载管理器。本政策说明 XIDM 会处理哪些数据、为什么处理，以及你可以怎样控制这些数据。</p>
+<p>开发者：diaoCoder · 联系邮箱：<a href="mailto:hubdev68@gmail.com">hubdev68@gmail.com</a></p>
+
+<h2>1. 只保存在你设备上的数据</h2>
+<p>以下数据只保存在设备本地，XIDM 不会上传，也不会出售或分享：</p>
+<ul>
+  <li>下载任务和下载的文件；</li>
+  <li>浏览历史、书签、打开的标签页，以及网站的 Cookies 和网站数据；</li>
+  <li>各项设置，包括你填写的代理服务器和下载授权信息；</li>
+  <li>广告拦截的 Hosts 来源，以及下载或导入后转换得到的域名列表；</li>
+  <li>AI 代理连接信息（只保存令牌的摘要，不保存令牌本身）。</li>
+</ul>
+<p>XIDM 不会把这些数据放进 Android 云备份。卸载 XIDM 时，这些数据会一并删除；你下载到公共「下载」目录的文件除外。</p>
+<p>隐身窗口在独立的进程中运行，有自己的存储空间：不记录历史，关闭窗口后会清除 Cookies、缓存和网站数据。</p>
+
+<h2>2. 你访问的网站和下载</h2>
+<p>浏览网页或下载文件时，XIDM 会直接连接你选择的网站或 BT 网络，如果你设置了代理，则经过你的代理。这些网站和 BT 节点会看到你的 IP 地址等信息，并按各自的隐私政策处理。XIDM 不会把你访问的网址或下载的文件发给我们。</p>
+<p>广告拦截的在线 Hosts 来源（默认没有）只在你添加来源、点「下载并重建」或「立即更新」，或者开启「自动更新」后才会下载。XIDM 直接向你填写的 https 网址发出普通请求，不携带账号、安装 ID 或设备标识；该服务器会看到你的 IP 地址。拦截检查完全在设备上进行，不会把你访问的网址发给任何列表提供者。</p>
+
+<h2>3. 使用统计（可以关闭）</h2>
+<p>XIDM 使用 Google Analytics for Firebase 统计功能的使用情况，用于改进应用。</p>
+<ul>
+  <li><b>发送的内容</b>：
+    <ul>
+      <li>预先限定的事件，例如「开始 / 完成 / 下载失败」以及下载类型，「打开媒体列表」，「切换广告拦截」；</li>
+      <li>Firebase 自动收集的应用版本、设备型号、系统版本、语言、大致地区，以及 Firebase 应用实例 ID。</li>
+    </ul>
+  </li>
+  <li><b>不会发送的内容</b>：网址、网站域名、文件名、下载内容、Cookies，以及广告 ID（XIDM 已移除广告 ID 权限）。</li>
+  <li><b>怎样关闭</b>：在菜单「使用统计」中关闭。关闭后不再收集，已在本机生成的统计数据会被重置。</li>
+  <li><b>保留期</b>：统计数据由 Google 按我们在 Google Analytics 中的设置保存，最长不超过 14 个月。Google 处理数据的方式见 <a href="https://policies.google.com/privacy">Google 隐私权政策</a>。</li>
+</ul>
+
+<h2>4. 剪贴板</h2>
+<p>你同意后，XIDM 会在你切回应用时读取剪贴板，检查其中是否有下载链接，并提示你打开或下载。剪贴板内容不会离开设备，XIDM 也不会保存剪贴板里的链接（只保存一个用于避免重复提示的摘要）。你可以在菜单「剪贴板链接识别」中关闭这项功能。</p>
+
+<h2>5. 权限</h2>
+<ul>
+  <li><b>网络</b>：浏览和下载。</li>
+  <li><b>通知</b>：显示下载进度、完成和失败。</li>
+  <li><b>存储</b>：把下载的文件保存到「下载 / XIDM」目录。</li>
+  <li><b>安装未知应用</b>：只在你主动打开自己下载的 APK 安装包时使用。Google Play 版不会自行下载或安装更新。</li>
+  <li><b>显示在其他应用上层</b>：只用于你开启的「浮窗通知」，默认关闭。</li>
+  <li><b>前台服务</b>：下载进行中，或你开启「AI 代理接入」时，在通知栏常驻显示。</li>
+</ul>
+
+<h2>6. AI 代理接入（MCP，默认关闭）</h2>
+<p>开启后，持有令牌的 AI 代理可以查看和控制你的下载。这个接口只在本机 127.0.0.1 上监听；开启「允许局域网访问」后，同一 Wi-Fi 网段中、你允许的设备也可以访问。</p>
+<p>每个连接有自己的令牌和权限，可以随时停用或删除。代理拿不到 Cookies、密码、浏览历史或隐身窗口里的任何内容。调用记录只保存在内存中，服务停止后清空。局域网访问使用不加密的 HTTP，请只在可信网络中开启。</p>
+
+<h2>7. 广告</h2>
+<p>XIDM 可能在主页和下载列表中显示由我们服务器下发的广告卡片。卡片会标明「广告」，可以关闭。XIDM 不集成任何广告 SDK，不使用广告 ID，也不会为广告收集或分享你的数据。</p>
+
+<h2>8. 配置服务</h2>
+<p>启用配置服务后，XIDM 会定期向我们的服务器获取远程配置，例如功能开关和广告卡片内容。这时只发送应用版本号，以及一个可以随时重置或关闭的随机安装 ID。这个 ID 与设备硬件、ANDROID_ID 或账号都没有关联，你可以在菜单「隐私与标识」中查看或关闭。Google Play 版不会通过这项服务检查或安装更新。</p>
+
+<h2>9. 儿童</h2>
+<p>XIDM 不面向 13 岁以下的儿童，我们也不会有意收集儿童的个人信息。</p>
+
+<h2>10. 政策变更</h2>
+<p>本政策更新时，我们会修改上方的生效日期。重大变更会在应用内提示。</p>
+
+<hr>
+
+<h1>XIDM Privacy Policy</h1>
+<p>Effective date: October 20, 2026</p>
+<p>XIDM is a download manager with a built-in browser. This policy explains what data XIDM handles, why it handles it, and how you can control it.</p>
+<p>Developer: diaoCoder · Contact: <a href="mailto:hubdev68@gmail.com">hubdev68@gmail.com</a></p>
+
+<h2>1. Data that stays on your device</h2>
+<p>The following data is stored only on your device. XIDM does not upload, sell or share it:</p>
+<ul>
+  <li>download tasks and the downloaded files;</li>
+  <li>browsing history, bookmarks, open tabs, and website cookies and site data;</li>
+  <li>settings, including any proxy servers and download credentials you enter;</li>
+  <li>the hosts sources for ad blocking, and the domain lists converted from what you download or import;</li>
+  <li>AI agent connections (only a digest of each token is stored, never the token itself).</li>
+</ul>
+<p>XIDM keeps this data out of Android cloud backup. Uninstalling XIDM deletes it, except for files you saved to the public Downloads folder.</p>
+<p>Incognito windows run in a separate process with their own storage. They keep no history, and their cookies, cache and site data are cleared when the window closes.</p>
+
+<h2>2. Websites you visit and downloads</h2>
+<p>When you browse or download, XIDM connects directly to the sites or BitTorrent peers you choose, or through your own proxy if you set one. Those sites and peers see your IP address and similar information and handle it under their own policies. XIDM does not send us the addresses you visit or the files you download.</p>
+<p>Online hosts sources for ad blocking (there are none by default) are downloaded only when you add one, tap 下载并重建 (download and rebuild) or 立即更新 (update now), or turn on automatic updates. XIDM sends a plain request to the https address you entered, without any account, install ID or device identifier; that server sees your IP address. Blocking decisions are made entirely on the device, and the addresses you visit are never sent to any list provider.</p>
+
+<h2>3. Usage statistics (optional)</h2>
+<p>XIDM uses Google Analytics for Firebase to understand which features are used and to improve the app.</p>
+<ul>
+  <li><b>What is sent:</b>
+    <ul>
+      <li>a fixed list of events, such as download started, finished or failed and the download type, media list opened, and ad blocking toggled;</li>
+      <li>what Firebase collects automatically: app version, device model, OS version, language, approximate region, and the Firebase app instance ID.</li>
+    </ul>
+  </li>
+  <li><b>What is never sent:</b> URLs, website domains, file names, download contents, cookies, or the advertising ID (XIDM removes the advertising ID permission).</li>
+  <li><b>How to turn it off:</b> use the menu item 使用统计 ("Usage statistics"). Turning it off stops collection and resets the statistics data generated on the device.</li>
+  <li><b>Retention:</b> Google keeps statistics data for the period we set in Google Analytics, at most 14 months. See the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</li>
+</ul>
+
+<h2>4. Clipboard</h2>
+<p>With your consent, XIDM reads the clipboard when you switch back to the app, to find download links and offer to open or download them. Clipboard contents never leave the device. XIDM does not store the link itself, only a short digest used to avoid offering the same link twice. You can turn this off under 剪贴板链接识别 ("Clipboard links").</p>
+
+<h2>5. Permissions</h2>
+<ul>
+  <li><b>Network</b>: browsing and downloading.</li>
+  <li><b>Notifications</b>: download progress, completion and failure.</li>
+  <li><b>Storage</b>: saving downloaded files to Downloads/XIDM.</li>
+  <li><b>Install unknown apps</b>: only used when you open an APK file you downloaded yourself. The Google Play version never downloads or installs updates of its own.</li>
+  <li><b>Display over other apps</b>: only for the optional floating download window, which is off by default.</li>
+  <li><b>Foreground service</b>: a persistent notification while downloads run, or while AI agent access is on.</li>
+</ul>
+
+<h2>6. AI agent access (MCP, off by default)</h2>
+<p>When you turn it on, AI agents that hold one of your tokens can view and control your downloads. The interface listens on this device only (127.0.0.1). If you also turn on LAN access, devices you allow on the same Wi-Fi subnet can reach it too.</p>
+<p>Each connection has its own token and permissions, and you can disable or delete it at any time. Agents never receive cookies, passwords, browsing history or anything from incognito windows. The call log is kept in memory only and is cleared when the service stops. LAN access uses unencrypted HTTP, so only turn it on in networks you trust.</p>
+
+<h2>7. Ads</h2>
+<p>XIDM may show ad cards supplied by our server on the home page and in the download list. Each card is labelled as an ad and can be closed. XIDM includes no ad SDK, does not use the advertising ID, and does not collect or share your data for advertising.</p>
+
+<h2>8. Configuration service</h2>
+<p>When the configuration service is enabled, XIDM periodically fetches remote configuration from our server, such as feature switches and ad card content. It sends only the app version and a random install ID that you can reset or turn off. That ID is not linked to your hardware, ANDROID_ID or any account, and you can view or turn it off under 隐私与标识 ("Privacy &amp; identifiers"). The Google Play version does not use this service to check for or install updates.</p>
+
+<h2>9. Children</h2>
+<p>XIDM is not directed at children under 13, and we do not knowingly collect personal information from children.</p>
+
+<h2>10. Changes</h2>
+<p>When this policy changes, we update the effective date above. Significant changes are announced in the app.</p>
+</body>
+</html>
