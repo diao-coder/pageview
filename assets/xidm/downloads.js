@@ -8,7 +8,7 @@ window.XIDM_DOWNLOADS = {
   version: '10.6',
   versionCode: 124,
   minAndroid: '7.0',
-  released: '',
+  released: '2026-10-21',
   play: '',
   apks: [
     { abi: 'universal', file: 'https://github.com/diao-coder/pageview/releases/download/v10.6/xidm-10.6-universal.apk', size: 47723355, sha256: 'b6027f541fa09e2992374954d5d9a18c510e616570f615d79fd08e82990b4f40', ready: true },
